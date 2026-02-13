@@ -22,6 +22,16 @@ print(game_over)
 
 edad = 16
 if (edad >= 18):
-    print("Si puedo entrar a el Bar!")
+    print("Si puedo  entrar a el Bar!")
 else:
     print("No puedes entrar al bar!")
+
+
+mi_numero = int(input("¿Cual es el numero que deseas verificar?: "))
+print(f"El numero que deseas verificar es {mi_numero}")
+if mi_numero % 2 == 0:
+    print(f"El numero {mi_numero}es par!!!")
+else:
+    print(f"El numero {mi_numero} es impar!!")
+
+    

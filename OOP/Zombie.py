@@ -1,9 +1,13 @@
 from Enemigo import *
 
-class Zombie(Enemigo):
-    def __init__(self, puntos_energia=10, ataque=1):
-        super().__init__(tipo_enemigo='Zombie', puntos_energia=puntos_energia, ataque=ataque)
+class Zombie:
+    def __init__(self, tipo, puntos_energia, ataque):
+        self.tipo = tipo
+        self.puntos_energia = puntos_energia
+        self.ataque = ataque
 
+    def get_tipo_enemigo(self):
+        return self.tipo
         def habla(self):
             print("Hummm.....")
 

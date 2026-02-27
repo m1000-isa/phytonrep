@@ -8,8 +8,8 @@ class Zombie:
 
     def get_tipo_enemigo(self):
         return self.tipo
-        def habla(self):
+    def habla(self):
             print("Hummm.....")
 
-        def propagar_enfermedades(self):
+    def propagar_enfermedades(self):
             print("El Zombie esta tratando de propagar la enfermedad!!")

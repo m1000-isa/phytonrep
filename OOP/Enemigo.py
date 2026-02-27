@@ -8,15 +8,15 @@ class Enemigo:
         self.puntos_energia = puntos_energia
         self.ataque = ataque
 
-        def get_tipo_enemigo(self):
+    def get_tipo_enemigo(self):
             return self.__tipo_enemigo
         
-        def habla(self):
+    def habla(self):
             print(f"yo son {self.__tipo_enemigo}. Preparado para pelear!!!")
 
 
-        def camina(self):
+    def camina(self):
             print(f"{self.__tipo_energia} se mueve cerca de ti!!!")
 
-        def atacar(self):
+    def atacar(self):
             print(f"{self.__tipo_enemigo} ataca con un {self.ataque} de daño!!")
